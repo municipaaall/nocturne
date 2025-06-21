@@ -33,6 +33,6 @@ local Window = Rayfield:CreateWindow({
       FileName = "NocturneKey",
       SaveKey = true, 
       GrabKeyFromSite = true,
-      Key = {"https://raw.githubusercontent.com/municipaaall/nocturne/main/keylist"}
+      Key = "https://raw.githubusercontent.com/municipaaall/nocturne/main/keylist"
    }
 })
