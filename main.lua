@@ -1,5 +1,4 @@
---[[Municipal
---]]
+
 
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
@@ -53,10 +52,10 @@ Rayfield:Notify({
 })
 
 local Window = Rayfield:CreateWindow({
-   Name = "Nocturne - Hub",
+   Name = "Nocturne - Core",
    Icon = "sparkle", 
    LoadingTitle = "Games Await",
-   LoadingSubtitle = "by Municipal",
+   LoadingSubtitle = "by ...",
    ShowText = "Nocturne", 
    Theme = ThemeNocturne, 
 
@@ -67,25 +66,25 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, 
-      FileName = "NocturneHub"
+      FolderName = true, 
+      FileName = "NocturneCore"
    },
 
    Discord = {
       Enabled = true, 
-      Invite = "E3as8ezqRV",
+      Invite = "nil",
       RememberJoins = false
    },
 
    KeySystem = false ,
    KeySettings = {
-      Title = "",
-      Subtitle = "",
-      Note = "",
-      FileName = "",
-      SaveKey = nil, 
-      GrabKeyFromSite = nil,
-      Key = {""}
+      Title = "nil",
+      Subtitle = "nil",
+      Note = "nil",
+      FileName = "nil",
+      SaveKey = false, 
+      GrabKeyFromSite = false,
+      Key = {"nil"}
    }
 })
 
